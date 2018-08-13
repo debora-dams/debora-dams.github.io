@@ -1,0 +1,14 @@
+.card{
+        margin: 3%;
+    }
+    
+    body{
+        overflow-x: hidden;
+    }
+    
+    footer {
+            margin-top: 5%;
+            background-color: #f2f2f2;
+            padding: 1%;
+        }
+        
