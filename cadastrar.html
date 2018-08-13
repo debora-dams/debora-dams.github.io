@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastre-se</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/cadastrar.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="index.html"> S U P E R M A R C H É </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                    <li><a href="produtos.html"><span class="glyphicon glyphicon-shopping-cart"></span> Produtos</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> Atendimento</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="cadastrar.html"><span class="glyphicon glyphicon-user"></span> Cadastre-se</a></li>
+                    <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <form class="form-horizontal">
+            <h1 class="text-center">-- Novo Cadastro --</h1>
+            <div class="form-group">
+                <label>Nome:</label>
+                <input type="text" class="form-control" placeholder="Apenas o primeiro nome" required>
+            </div>
+            <div class="form-group">
+                <label>Sobrenome:</label>
+                <input type="text" class="form-control" placeholder="ex.: [...] Santos" required>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <label>Endereço:</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="col-sm-4">
+                    <label>Número:</label>
+                    <input type="number" class="form-control" min="1" required>
+                </div>
+                <div class="col-sm-4">
+                    <label>Complemento:</label>
+                    <input type="text" placeholder="ex.: numero de apartamento" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Telefone para contato:</label>
+                <input type="tel" class="form-control" placeholder="(xx) x0000-0000" required>
+            </div>
+            <div class="form-group">
+                <label>E-mail:</label>
+                <input type="email" class="form-control" placeholder="ex.: zezinho@gmail.com" required>
+            </div>
+            <div class="form-group">
+                <label>Senha:</label>
+                <input type="password" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label>Confirme sua senha:</label>
+                <input type="passoword" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-danger center-block" value="Cadastrar">
+            </div>
+        </form>
+    </div>
+    
+    <footer class="container-fluid text-center">
+        <span class="fa fa-copyright" style="margin-bottom: 0; padding-bottom: 0"> SUPERMARCHÉ, 2018</span>
+    </footer>
+</body>
+</html>
